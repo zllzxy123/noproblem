@@ -9,6 +9,7 @@ public class loginController {
     @GetMapping("/do/{username}")
     public String dologin(@PathVariable("username")String username, Model model){
         model.addAttribute("name",username);
+        System.out.println("aa");
         return "index";
     }
 }
