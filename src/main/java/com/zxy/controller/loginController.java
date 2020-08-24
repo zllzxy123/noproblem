@@ -12,3 +12,4 @@ public class loginController {
         return "index";
     }
 }
+
